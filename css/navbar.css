@@ -1,0 +1,71 @@
+/* General Reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
+
+/* Navbar CSS Start */
+
+nav{
+    background-color: #000300;
+    height: max-content;
+    width: 100%;
+    padding: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-links ul{
+    /* background-color: aqua; */
+    display: flex;
+    list-style: none;
+
+    gap:40px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #d5bb69;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.5s;
+}
+
+.nav-links a:hover{
+    color: #f4211e;
+}
+
+
+
+
+.nav-btns button{
+    padding: 10px 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    background-color: #f4211e;
+    color: #fff;
+    transition: all 0.5s;
+}
+
+.nav-btns button:hover{
+    background-color: #d5bb69;
+}
+
+
+
+/* Navbar CSS End */
